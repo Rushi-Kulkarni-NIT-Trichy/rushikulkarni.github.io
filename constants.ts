@@ -1,4 +1,3 @@
-
 import { WorkExperience, ImpactProject, Award, Education } from './types';
 
 export const PROFILE = {
@@ -7,32 +6,32 @@ export const PROFILE = {
   location: "Mumbai, India",
   email: "nittrichy.rushi@gmail.com",
   phone: "9488177320",
-  bio: "Building Data Driven Products for the Browse Pod @ Purplle.com (NIT Trichy alum) driving growth and monetization through data, experimentation, and AI agents and also building a 0→1 habit-formation app.",
+  bio: "I build data-driven B2C products at scale — owning Browse & Discovery at Purplle.\nNIT Trichy alum, focused on growth, monetization, experimentation, and agentic AI workflows.\nCurrently also building a 0→1 habit-formation app.",
 };
 
 export const PROJECTS: ImpactProject[] = [
   {
     title: "Homepage & Discovery Revamp",
-    description: "Shifted app discovery from generic listings to use-case led journeys (Concern, Ingredient, Regimen based). Led the cross-functional effort from UX research to large-scale A/B testing.",
-    metrics: ["9.1% lift in Revenue/MAU", "25% drop in exit rate", "Deeper category penetration"],
+    description: "Redesigned app discovery from generic brand banner listings to use-case–led journeys (Concern, Ingredient, Regimen). Led the effort end-to-end — from user research and UX alignment to large-scale experimentation.",
+    metrics: ["9.1% lift in Revenue/MAU", "25% drop in exit rate", "Deeper category penetration ( 12% increase in greater than 2 category visits )"],
     tags: ["Product Strategy", "A/B Testing", "UX"]
   },
   {
     title: "Agentic AI Workflows",
-    description: "Architected GenAI n8n workflows to automate PDP image and marketing banner generation. Integrated with internal systems for real-time app updates and merchandising.",
+    description: "Architected agentic GenAI workflows using n8n to automate PDP image creation and in-app marketing banners. Integrated directly with internal systems to enable real-time merchandising updates.",
     metrics: ["~90% reduction in manual effort", "13% increase in ATCs per slot"],
     tags: ["GenAI", "n8n", "Automation"]
   },
   {
     title: "AdTech Monetization (PDA)",
     description: "Developed the Purplle Display Ads (PDA) infrastructure and a selective placement control panel, empowering brand partners to bid for premium in-app real estate.",
-    metrics: ["₹2 Cr/month revenue potential", "Native Ad Integration"],
+    metrics: ["₹2 Cr/month revenue potential"],
     tags: ["Monetization", "AdTech", "Scalability"]
   },
   {
     title: "AI Trust & Discovery Filters",
     description: "Launched AI Visual Filters and GenAI-led review quality improvements to build relevance and trust on product pages for millions of users.",
-    metrics: ["+5% ATCs per visitor", "Relevance score improvement"],
+    metrics: ["+5% ATCs per visitor", "Improved relevance & decision confidence"],
     tags: ["AI Filters", "Discovery"]
   }
 ];
@@ -109,5 +108,12 @@ export const AWARDS: Award[] = [
 ];
 
 export const SKILLS = [
-  "Product Strategy", "Growth", "A/B Testing", "SQL", "Python", "GenAI", "n8n", "Tableau", "Stakeholder Management"
+  "Product Strategy & Roadmapping",
+  "Growth & CRO",
+  "A/B Testing & Experimentation",
+  "SQL · Python",
+  "GenAI & Agentic Workflows",
+  "n8n Automation",
+  "Tableau & Analytics",
+  "Stakeholder Management"
 ];
